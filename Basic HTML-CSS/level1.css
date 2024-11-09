@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/*Most IMP Notes for css*/
+/*
+
+-- position = absolute hoy tyare j aapde direct top , left etc direction use kari saki
+-- position = absolute atle upper layer jevu work kare like hava hoy tevu
+-- display flex no use badha element ne row column ma divide karva thay
+-- jyare element ne y axis (column direction / up-down) ma move karva hoy tyare "align-items" no use thay 
+-- jyare element ne x axis (row direction / left- right ) ma move karva hoy tyare "justify-content" no use thay
+
+*/
+
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(177, 235, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#child1{
+    height: 200px;
+    width: 200px;
+    background-color: salmon;
+}#child2{
+    height: 200px;
+    width: 200px;
+    background-color:rgb(20, 117, 81);
+}#child3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(43, 59, 122);
+}

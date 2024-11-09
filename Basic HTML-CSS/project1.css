@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav h3{
+    font-size: 16px;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 400;
+}
+#nav i{
+    font-size: 16px;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 400;
+}
+#nav h1{
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: uppercase ;
+}
+#nav button{
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+}
+#btn2{
+    background-color: orange;
+    color: white;
+}
+
+/*
+-- h1 mate red color mate h1 tag ne red aapi to badha h1 tag red thai jay
+-- aapde aaiya our advantages ne j red karvu che 
+-- to ka alag id aapi saki je vadhare karay 
+-- nano code hoy tyare " main>h1 " kari sakay 
+-- atle k main ni tarat direct aavela h1 tag
+*/
+
+#main>h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 100%;
+    font-style: inherit;
+}
+
+/* 
+-- object-fit:cover no use image ne sarkho cover karva thay
+-- kyarek image ni height k width set karta image dabati hoy avy lage tyare use thay
+-- object-position :top no use tyare thay jyare aapde image no upar no bhag joto hoy
+-- background-size:cover no use tyare thay jyare background image ne set karvi hoy
+*/
+img{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 25px;
+}
+#img1{
+    transform: translate(-50%,-50%)rotate(-17deg);
+}
+#img2{
+    transform: translate(-50%,-50%)rotate(-13deg);
+}
+#img3{
+    transform: translate(-50%,-50%)rotate(-7deg);
+}
+#img4{
+    transform: translate(-50%,-50%)rotate(0deg);
+}
+
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 2.5%;
+    font-size: 17px;
+}
+#btim2{
+    font-size: 16px;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 400;
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#btm-right{
+    position: absolute;
+    bottom: 5%;
+    right: 2.5%;
+    font-size: 17px;
+}
